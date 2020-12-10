@@ -1,0 +1,5 @@
+My project is called "Image Center" and it is a image storage database. 
+
+In the database I have two tables: an user table listing all the registered users and a image table listing all the images stored in the database. The user table includes an unique id for each client, his/her username and password which is hashed. The image table includes the title of the image and the directory of the image stored.
+
+The project is expected to have a main page on which user can sign in or sign up depending on whether the user is first-time user or not. If the user choose to sign up, after submit an unique username which cannot be the same with the ones already existed in the database and a password. Once the user successfully registered, he will be redirected to the log in page. Once logged in, the user will see, from top to bottom, a log out choice, a upload image function, a welcome message and his images stored in the database.
